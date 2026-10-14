@@ -1,5 +1,10 @@
 # Changelog for Advanced Audit Policy
 
+Unreleased
+
+- Identify subcategories by GUID so policies apply on hosts with a non-English
+  system locale; read current state from `auditpol /backup`
+
 2024-04-25 Release 2.0.0
 
 - Convert to PDK
